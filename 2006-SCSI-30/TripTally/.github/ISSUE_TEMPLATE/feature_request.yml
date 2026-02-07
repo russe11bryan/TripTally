@@ -1,0 +1,42 @@
+name: Feature request
+description: Suggest a new feature or improvement
+labels: ["feat", "priority:P2"]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Short summary
+      description: One sentence describing the feature
+      placeholder: "Compare screen: show CO₂ per route"
+    validations: { required: true }
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What do you want to happen?
+    validations: { required: true }
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: Bullet list of criteria that must be true to close
+      placeholder: |
+        - Given origin/destination, when request succeeds, then show 3 routes
+        - Show ETA, cost, CO₂ for each route
+    validations: { required: true }
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: ["frontend", "backend", "infra", "docs"]
+    validations: { required: true }
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options: ["P1", "P2", "P3"]
+      default: 1

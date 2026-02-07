@@ -1,0 +1,10 @@
+name: commitlint
+on:
+  pull_request:
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm i -D @commitlint/cli @commitlint/config-conventional
+      - run: npx commitlint --from ${{ github.event.pull_request.base.sha }} --to ${{ github.sha }} --verbose

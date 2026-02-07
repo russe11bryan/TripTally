@@ -1,0 +1,203 @@
+{
+  "status": "OK",
+  "routes": [
+    {
+      "route_id": 0,
+      "summary": "",
+      "distance": 37012,
+      "distance_text": "37.0 km",
+      "duration": 7033,
+      "duration_text": "1 hour 57 mins",
+      "duration_in_traffic": null,
+      "duration_in_traffic_text": null,
+      "encoded_polyline": "oifGmuywRu@Yy@s@w@kAuAwB@O?SXIv@s@HQN@La@XcBVa@\\Yb@Id@CfDHfAOd@_@dB{BtBwAvBuAF]@e@}BiC_AaAk@WgCIABEHMLO@Q_@HODa@D[RUxBg@jFoB~Aw@nIaGdIkGxC}B`@UjBaArEkB|EsAGmBK?\\{CDEBkBKiEMuI@cGDcD?mAWcBs@eCaCcJsB{GcAuB{D}J}CoL_FwQ_AmDmBiHy@yC]iBwAcJcAkIe@kDQcDR_D`@qCt@oFPcC?gB?sCHuCX_Cl@kCfB}DdCsDrGsJ`CiD|D_GjKsNzD}Ex@{@jA_ApEwBlNoGlAi@`C_Bd@e@vBeDtD_IhC{GbAiCr@gCZsBJoDBwGVwBx@gDr@uCh@{Ch@wDtAkKb@kBf@qAx@{Az@cAnCiBfFkB`N}EpNeIxHuEtBgAbC_AdEwAfGqBjC}AjBqBtAoC^mATqAJoA?yBYiGg@{HScCm@eKI_DDkBVkBj@sBtByExGmMnKeSd@gA^kBNgE\\mIX}Cb@sEb@sH^kHXcBb@oAn@uAfC_D`L{MjH{HfAqAhAcBtF{GxO_RzBaCd@_@|CaBpIkEnBgAxAsAlAuA`BmBrAaBh@{@v@sB\\iB`@gEzBmWTwAz@_C^_Aj@iBrAqDt@kC\\aC\\kOXqCbDoFbF_IpAsJRwAFqV@cDUcE^iAtEmE~DuD|A_ChJoPn@iAFBi@_@_Op\\aFrDaBZmGWgFLuDVeEl@uMaBsMjAmPi@iDgA_GCe@DkSfOsChBc@r@i@hBq@bDOnBXjCj@tBrB|CxAbBdAhBnAvHeAlCiAtCqD~GiJpGmFjCiCP}BTmAOcCsAiByAaGiKqYsOkBkBiGkB}Jm@eEb@eBIqBe@iEkAwJyDiI_D_AiAk@iA]cBI}AGy@Z_BeCeVqPee@sBmC{@q@cBYoEPeEvAuXbFyJz@wCB_DQwDA_K|BqJBgC@eDn@qHlDsH`G{B|@kE`AmC~AqF`GoDrGuCtIoBjCqE`EqB`AoAJcGU]QoM}PqC_BBEzBEANr@Dh@FfAA@d@?HXAjBCN?fCH`@LPZA`ECfF?^?|@ILHJFGA|@@B?HCEKFFtAmB`BkA`AZr@Ux@Gf@NPKNg@jAERTRW^Qb@@l@h@jCBjAR\\AxBm@tBY`BFr@b@`ATdAXDXLpBxA`CrB|@~@bAn@|@ZhAXn@LXNd@p@?HFxB?NpA?xA@nCBvEAd@GVU\\eAV{@XYvA}@j@]`@i@BK",
+      "start_address": "Nanyang Technological University, Block N3.1, Singapore",
+      "end_address": "Unnamed Road, Singapore",
+      "start_location": {
+        "lat": 1.3482417,
+        "lng": 103.6835868
+      },
+      "end_location": {
+        "lat": 1.3528499,
+        "lng": 103.819966
+      },
+      "fare": null,
+      "steps": [
+        {
+          "instruction": "Walk to Opp Hall 2",
+          "html_instruction": "Walk to Opp Hall 2",
+          "travel_mode": "WALKING",
+          "maneuver": null,
+          "distance_text": "0.3 km",
+          "duration_text": "4 mins",
+          "polyline": "oifGmuywRIAKEOGOIOIi@i@c@o@S[k@y@U]OUCI@E?C?A?CCCBONCHEJGPONQHIHI?A@C",
+          "start_location": {
+            "lat": 1.3482417,
+            "lng": 103.6835868
+          },
+          "end_location": {
+            "lat": 1.3490269,
+            "lng": 103.6855333
+          },
+          "transit_details": null
+        },
+        {
+          "instruction": "Bus towards 650B HDB",
+          "html_instruction": "Bus towards 650B HDB",
+          "travel_mode": "TRANSIT",
+          "maneuver": null,
+          "distance_text": "2.3 km",
+          "duration_text": "10 mins",
+          "polyline": "onfGsazwRJFBEDKFUBMFi@H]BMDGDKJMPOJITELC@?HANAH?F?n@Bb@@V@T?H?N@B?PATAREJEXQJMdB{BtBwAtAaA`@SBOBM?K@Yw@_AeAiA[]YYIIMGCCOGICMCQCO?wAAA??@?@?@A??@A@?@A@?@A??@A??@A@A@A??@A??@A?A@A?A@A@AAA?AAA??AA?AAAAAAAA?AA??AAA?AAA?A?AAA?A?A?ABEDIFCA]@M@E?A@EBGDEBCDC@APGl@Kv@Qz@]pAc@`A]ZOPGf@WRKPKRMTOdAs@x@k@tB{AROJINMZUv@m@j@e@`@[LKb@_@nAaA`@WlCmBJOPINKNIv@_@PMPIJGXODArAm@p@UTIFCB?TIfEiAGgA?e@G?",
+          "start_location": {
+            "lat": 1.34904,
+            "lng": 103.68554
+          },
+          "end_location": {
+            "lat": 1.337747,
+            "lng": 103.696541
+          },
+          "transit_details": {
+            "headsign": "650B HDB",
+            "num_stops": 1,
+            "line_name": "Campus Rider - Green (CR)",
+            "line_short_name": "Rider Green",
+            "vehicle_type": "BUS",
+            "vehicle_name": "Bus",
+            "departure_stop": "Opp Hall 2",
+            "arrival_stop": "650B HDB",
+            "departure_time_text": "11:45\u202fAM",
+            "arrival_time_text": "11:55\u202fAM",
+            "line_color": "#007c48",
+            "line_text_color": "#ffffff"
+          }
+        },
+        {
+          "instruction": "Walk to Pioneer",
+          "html_instruction": "Walk to Pioneer",
+          "travel_mode": "WALKING",
+          "maneuver": null,
+          "distance_text": "87 m",
+          "duration_text": "1 min",
+          "polyline": "ahdGkf|wRX{C",
+          "start_location": {
+            "lat": 1.3377703,
+            "lng": 103.6965412
+          },
+          "end_location": {
+            "lat": 1.3376377,
+            "lng": 103.6973202
+          },
+          "transit_details": null
+        },
+        {
+          "instruction": "Subway towards Pasir Ris",
+          "html_instruction": "Subway towards Pasir Ris",
+          "travel_mode": "TRANSIT",
+          "maneuver": null,
+          "distance_text": "18.7 km",
+          "duration_text": "27 mins",
+          "polyline": "cgdGgk|wRD??E@O@{A?EE_BCgAA[?EEoA?Y?w@AY?_@Ey@?y@?]@mA?W?U?E?I?uA?C?_@@gAAc@DW@MBU?GEa@Ee@AEE[I[K[AE]iAGYQm@K_@Mg@Sw@WcAU}@ACQo@s@aCUy@Oe@Yy@AGWi@[m@MUWg@g@yAa@aAAEc@gAYq@CIUo@Uq@[mAWcAsAkFwCsKe@eBYcAGYMe@?AAGOg@GQESAAOm@Ka@Sw@GOUy@AGU{@WaA[iA]oAUy@Go@[mBMu@Q{@[cCGi@E[MeAOeAIu@AQIg@AIM_AG_@My@AQA[Ce@Ku@?k@FkAJsARwALy@Ny@J_AHk@NiAFo@@KBa@Be@?m@@YA_@?iA?c@Ac@@A?q@B_A@QBQ@GDc@Ho@Fc@BK@C?Cf@wBLa@~@sBR]DIJOvAwBZc@DGPWBE|@sANQn@cA~@uAj@y@R[PYZc@@AT[RYT[PWBEr@eA~@uAdA}ArBuC|BaDfB_Cp@{@NSr@_ANSt@}@VYDGHKHIPUJIXY@AFINKZUVS\\SBA^SFCl@YRK~@a@DAvBcAdBu@|BeA@?HEd@UnAk@NGt@[FEFCFC`@ULI\\Sr@k@VWFGDEZc@d@o@@Cr@mAz@eBVg@`@{@JWHQHSTg@HOBId@gABEVo@DONa@N_@\\aAJYDKl@yABITq@DQFQNq@F]F[Hm@@K@MFsA?k@@a@Ac@Am@?K?w@?O@w@@UBc@JaADa@@EBM@K@Cp@kCBKb@_BNu@ZaBLy@T{ABQBOJy@D]Fe@NaAFe@TqBLy@@CHo@DWHa@Rq@L_@DIHUHQDKRa@LUPWNSDEX[JMHI@?TSPMNK?ATMt@a@LG^O^OTIVIFC|@Yd@QbA[^MXMn@Uv@YDAl@SZMZKh@SNGTKB?TI@Ab@QVMJERM^Sl@]VQVOBAtA{@DCt@a@l@]LIz@c@LI^U^UXO`@Wd@YRMXQx@i@nAs@d@YFC^Qf@WRI\\Or@W\\MPGNENEp@W^MDCZK^MLE^MlBk@^MJETIZKLGLGb@UJGTMFEJGNKROROJMLKNQFGLMNSFKR]NUBGJOFMDKHSHUHUBKHUFU@CHg@DYBKBW@I@WBU@g@?I@c@Cc@Ag@Ew@GiA?IEk@AO?KAMASCa@AI?GKiBG}@Cg@Gc@?CEQ?ACSAGAOE}@?AKgBG{@QqCGoACYCu@Ai@?e@?U?[@_@BYB]DW?ELo@Ns@J_@FMFQZ}@`@_AVg@^s@P_@DGzAsChAyBx@_BFMLUJSHOXi@@AHKJOz@cBP]v@}AR]P]d@}@HOBGLW~@gBd@{@P_@DIDKFQJ[Ha@@AFk@@YB_@?I?MBo@?ABw@@KD{@Ba@?ABc@@y@@c@?EJeB@W@EB[BQB]@GDc@@GDYHg@?ID]Dk@Dm@@G?GB[Bc@FeA@M@UHgABs@@M@c@HsB@Q@QBc@B]@IDc@DWFi@@EH[FUBMFON[JUJURc@BEV_@@?dAqAf@m@f@o@~AkBvBeC`DyDxCaDVW`AgAv@y@BCRWVYV[LOLQb@u@HKHKv@aAn@u@f@o@DEn@u@Z_@HKJMV[fAoAn@u@V[tH}IVYV[n@u@JKl@o@POHGVS@A@ARMDCXSZQLG^O^QrAk@h@Yz@e@\\Sh@WRM\\Q\\S|@e@@?TMXSx@q@^a@FGdAmAX[V[VYV[n@u@@A\\c@BEJOJKFMHQZq@L]?ALa@Je@F]@AFc@?CTsBDk@Dc@VmCTmCNkBf@wFDc@Da@Bc@Dc@Fc@BMDSBQL_@FQVq@L[L[Pc@p@gBEAFOjAaDt@kC\\aCLwCNsJXqCbDoFbF_IpAsJRwABmKBcJ@cDUcE^iAtEmE~DuD|A_CpBsDvF{Jn@iAFB",
+          "start_location": {
+            "lat": 1.33762,
+            "lng": 103.69732
+          },
+          "end_location": {
+            "lat": 1.2814,
+            "lng": 103.83913
+          },
+          "transit_details": {
+            "headsign": "Pasir Ris",
+            "num_stops": 12,
+            "line_name": "East West Line",
+            "line_short_name": "EW",
+            "vehicle_type": "SUBWAY",
+            "vehicle_name": "Subway",
+            "departure_stop": "Pioneer",
+            "arrival_stop": "Outram Park",
+            "departure_time_text": "12:03\u202fPM",
+            "arrival_time_text": "12:30\u202fPM",
+            "line_color": "#189e4a",
+            "line_text_color": "#ffffff"
+          }
+        },
+        {
+          "instruction": "Walk to Outram Park",
+          "html_instruction": "Walk to Outram Park",
+          "travel_mode": "WALKING",
+          "maneuver": null,
+          "distance_text": "29 m",
+          "duration_text": "1 min",
+          "polyline": "wgyFqaxxRi@_@",
+          "start_location": {
+            "lat": 1.2814,
+            "lng": 103.83913
+          },
+          "end_location": {
+            "lat": 1.28161,
+            "lng": 103.83929
+          },
+          "transit_details": null
+        },
+        {
+          "instruction": "Subway towards Woodlands North",
+          "html_instruction": "Subway towards Woodlands North",
+          "travel_mode": "TRANSIT",
+          "maneuver": null,
+          "distance_text": "12.8 km",
+          "duration_text": "20 mins",
+          "polyline": "aiyFqbxxRcMjY{@dBeDfC{@j@a@L_ALcA?iEWqB@uBJuDVeEl@A?sMaBkMhAG@wGWuGQmBm@{@YoC?oBCe@DkSfOmAr@eAt@c@r@i@hBq@bDOnBXjCj@tBrB|CxAbBdAhBnAvH@FgAdCiAtCqD~GeJnGC@mFjCiCP}BTmAOcCsAiByAqByDoCoEaWyMoAy@kBkBiGkB}Jm@eEb@eBIqBe@iEkAwJyD_FkBiBs@_AiAk@iA]cBI}AGy@Z_BeCeVqPee@cAiAo@cA{@q@cBYoEPeEvAgX~EMBgGd@qBTwCB_DQeAGqBDsCh@kFrAyEBwC?gC@eDn@kEvBeBt@eCjBmDtC{B|@kE`AmC~AqF`GCBkDnG}@xCwAzDoBjCqE`EqB`AoAJgCK{BI]QoM}PqC_BBE",
+          "start_location": {
+            "lat": 1.28161,
+            "lng": 103.83929
+          },
+          "end_location": {
+            "lat": 1.36264,
+            "lng": 103.83227
+          },
+          "transit_details": {
+            "headsign": "Woodlands North",
+            "num_stops": 9,
+            "line_name": "Thomson East Coast Line",
+            "line_short_name": "TE",
+            "vehicle_type": "SUBWAY",
+            "vehicle_name": "Subway",
+            "departure_stop": "Outram Park",
+            "arrival_stop": "Bright Hill",
+            "departure_time_text": "12:37\u202fPM",
+            "arrival_time_text": "12:57\u202fPM",
+            "line_color": "#9d5a25",
+            "line_text_color": "#ffffff"
+          }
+        },
+        {
+          "instruction": "Walk to Unnamed Road, Singapore",
+          "html_instruction": "Walk to Unnamed Road, Singapore",
+          "travel_mode": "WALKING",
+          "maneuver": null,
+          "distance_text": "2.7 km",
+          "duration_text": "41 mins",
+          "polyline": "ociGuvvxRzBEAN`@DP?XBNBN@TAL?RA?J@X?HXAL?|ACF?F?F?N@TAxAHTDDBB@@@BBBFDHBD?~A?FAB?tA?H@HAX?LAp@?HAx@?t@?N?D?F?@?L?n@ILBDDD@@DI?JAFA?@h@B?AB?HCEEBEBBD?z@@J@FCHCDSNqA`AORSNOHWRLVLZOd@ERAHE\\LH@F?BA@ADGBGHGHAD?DCDCFEHGRINBBFFLJEFINEBABEJABGLADAF?F?LBNBHBPHh@@B?BHZ?@J^@V?T@F?DAH?@?@@@@@@@@@@@@BBF?@DF@\\Af@Ab@?NGb@OXUv@I`@A@GZE`@@Z@J@B@F@FBDBH@@FJHL@@BJLj@FXP@FBFBHBFDDBZT@?XTFFRN@?TPD@NJJHTRBB\\XTVPPFDB@HHJJ?@FHFJJHJHJJNJZLPFRHHBLDVFZLTBd@FHDJBLJJJHHFLFL?@?B?@?@?@BTBV?X?H?T?B?J?NpA?t@?b@@b@?b@@b@?b@@R?N?f@AbA@@?Z?DAb@?XEFAB?DADEDEDGFKFSJa@@CJg@JSPSFEZWHGRK\\Q@AZQ@?JINMHMFMBI?A",
+          "start_location": {
+            "lat": 1.36264,
+            "lng": 103.83227
+          },
+          "end_location": {
+            "lat": 1.3528499,
+            "lng": 103.819966
+          },
+          "transit_details": null
+        }
+      ]
+    }
+  ],
+  "overview_polyline": "oifGmuywRu@Yy@s@w@kAuAwB@O?SXIv@s@HQN@La@XcBVa@\\Yb@Id@CfDHfAOd@_@dB{BtBwAvBuAF]@e@}BiC_AaAk@WgCIABEHMLO@Q_@HODa@D[RUxBg@jFoB~Aw@nIaGdIkGxC}B`@UjBaArEkB|EsAGmBK?\\{CDEBkBKiEMuI@cGDcD?mAWcBs@eCaCcJsB{GcAuB{D}J}CoL_FwQ_AmDmBiHy@yC]iBwAcJcAkIe@kDQcDR_D`@qCt@oFPcC?gB?sCHuCX_Cl@kCfB}DdCsDrGsJ`CiD|D_GjKsNzD}Ex@{@jA_ApEwBlNoGlAi@`C_Bd@e@vBeDtD_IhC{GbAiCr@gCZsBJoDBwGVwBx@gDr@uCh@{Ch@wDtAkKb@kBf@qAx@{Az@cAnCiBfFkB`N}EpNeIxHuEtBgAbC_AdEwAfGqBjC}AjBqBtAoC^mATqAJoA?yBYiGg@{HScCm@eKI_DDkBVkBj@sBtByExGmMnKeSd@gA^kBNgE\\mIX}Cb@sEb@sH^kHXcBb@oAn@uAfC_D`L{MjH{HfAqAhAcBtF{GxO_RzBaCd@_@|CaBpIkEnBgAxAsAlAuA`BmBrAaBh@{@v@sB\\iB`@gEzBmWTwAz@_C^_Aj@iBrAqDt@kC\\aC\\kOXqCbDoFbF_IpAsJRwAFqV@cDUcE^iAtEmE~DuD|A_ChJoPn@iAFBi@_@_Op\\aFrDaBZmGWgFLuDVeEl@uMaBsMjAmPi@iDgA_GCe@DkSfOsChBc@r@i@hBq@bDOnBXjCj@tBrB|CxAbBdAhBnAvHeAlCiAtCqD~GiJpGmFjCiCP}BTmAOcCsAiByAaGiKqYsOkBkBiGkB}Jm@eEb@eBIqBe@iEkAwJyDiI_D_AiAk@iA]cBI}AGy@Z_BeCeVqPee@sBmC{@q@cBYoEPeEvAuXbFyJz@wCB_DQwDA_K|BqJBgC@eDn@qHlDsH`G{B|@kE`AmC~AqF`GoDrGuCtIoBjCqE`EqB`AoAJcGU]QoM}PqC_BBEzBEANr@Dh@FfAA@d@?HXAjBCN?fCH`@LPZA`ECfF?^?|@ILHJFGA|@@B?HCEKFFtAmB`BkA`AZr@Ux@Gf@NPKNg@jAERTRW^Qb@@l@h@jCBjAR\\AxBm@tBY`BFr@b@`ATdAXDXLpBxA`CrB|@~@bAn@|@ZhAXn@LXNd@p@?HFxB?NpA?xA@nCBvEAd@GVU\\eAV{@XYvA}@j@]`@i@BK",
+  "destination": {
+    "lat": 1.3528499,
+    "lng": 103.819966
+  },
+  "distance_meters": 37012,
+  "duration_seconds": 7033,
+  "distance_text": "37.0 km",
+  "duration_text": "1 hour 57 mins"
+}

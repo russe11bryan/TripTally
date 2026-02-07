@@ -1,0 +1,39 @@
+name: Bug report
+description: Create a bug report
+labels: ["bug", "priority:P1"]
+body:
+  - type: input
+    id: summary
+    attributes:
+      label: Summary
+      placeholder: "Login screen crashes on empty email"
+    validations: { required: true }
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open app
+        2. Tap Login
+        3. Leave email empty
+        4. Tap Submit
+    validations: { required: true }
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations: { required: true }
+
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior / logs / screenshots
+    validations: { required: true }
+
+  - type: input
+    id: version
+    attributes:
+      label: Version / environment
+      placeholder: "Android 14 / iOS 18, API v0.1.0"

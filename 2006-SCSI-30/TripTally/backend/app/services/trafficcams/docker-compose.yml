@@ -1,0 +1,83 @@
+services:
+  redis:
+    image: redis:7-alpine
+    container_name: triptally-redis
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+    networks:
+      - triptally-network
+
+  ci-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: triptally-ci-service
+    depends_on:
+      redis:
+        condition: service_healthy
+    environment:
+      # API Configuration
+      - API_URL=https://api.data.gov.sg/v1/transport/traffic-images
+      - X_API_KEY=${X_API_KEY:-}
+      
+      # Redis Configuration
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_DB=0
+      
+      # Model Configuration
+      - MODEL_PATH=/app/trafficcams/models/yolov8n.pt
+      - IMG_SIZE=640
+      - CONF_THRES=0.25
+      - IOU_THRES=0.45
+      
+      # CI Parameters
+      - K_COUNT=20
+      - K_AREA=0.10
+      - K_MOTION=8.0
+      - W_DENS=0.6
+      - W_AREA=0.4
+      - W_MREL=0.3
+      - W_CIRAW=0.7
+      
+      # Processing Configuration
+      - LOOP_INTERVAL=120
+      - MAX_HISTORY=60
+      - CACHE_DIR=/app/trafficcams/cache
+      - LOG_LEVEL=INFO
+      
+      # Design Patterns Configuration
+      - REPOSITORY_TYPE=redis     # redis, csv, sql
+      - FORECASTER_TYPE=auto      # simple, ml, auto
+      - MODEL_DIR=/app/trafficcams/models
+      - DATA_DIR=/app/trafficcams/data
+      - DB_PATH=/app/trafficcams/data/traffic_ci.db
+    volumes:
+      - ./models:/app/trafficcams/models:ro
+      - ./cache:/app/trafficcams/cache
+      - ./logs:/app/trafficcams/logs
+    restart: unless-stopped
+    networks:
+      - triptally-network
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+
+volumes:
+  redis_data:
+    driver: local
+
+networks:
+  triptally-network:
+    driver: bridge

@@ -1,0 +1,62 @@
+{
+  "version": "ci-lgbm-20251103_145223",
+  "created_at": "2025-11-03T14:52:23",
+  "best_iteration": 622,
+  "params": {
+    "objective": "regression",
+    "metric": [
+      "RMSE"
+    ],
+    "learning_rate": 0.02,
+    "num_leaves": 255,
+    "max_depth": -1,
+    "feature_fraction": 0.8,
+    "bagging_fraction": 0.8,
+    "bagging_freq": 1,
+    "min_data_in_leaf": 100,
+    "max_bin": 127,
+    "verbosity": -1,
+    "device_type": "gpu",
+    "gpu_platform_id": 0,
+    "gpu_device_id": 0
+  },
+  "feature_cols": [
+    "camera_id",
+    "img_w",
+    "img_h",
+    "veh_count",
+    "veh_wcount",
+    "area_ratio",
+    "motion",
+    "minute_of_day",
+    "day_of_week",
+    "hour",
+    "is_weekend",
+    "res_class",
+    "CI_lag_1",
+    "CI_lag_3",
+    "CI_lag_6",
+    "CI_lag_12",
+    "CI_lag_30",
+    "CI_lag_60",
+    "CI_roll_mean_30",
+    "CI_roll_std_30",
+    "CI_roll_mean_60",
+    "sin_t_h",
+    "cos_t_h",
+    "dow_h",
+    "is_weekend_h",
+    "horizon_min"
+  ],
+  "cat_feats": [
+    "camera_id",
+    "res_class",
+    "dow_h"
+  ],
+  "target": "y_logit",
+  "metrics": {
+    "valid_mae": 0.06967825217285195,
+    "valid_rmse": 0.09626238656741458,
+    "valid_r2": 0.7292387247209113
+  }
+}

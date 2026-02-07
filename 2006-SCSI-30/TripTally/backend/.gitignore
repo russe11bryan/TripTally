@@ -1,0 +1,14 @@
+# inherit from root ignores
+.env
+.env.*
+__pycache__/
+venv/
+.venv/
+.uv/
+.coverage
+htmlcov/
+alembic/versions/__pycache__/
+cache/*
+combined_traffic_data.parquet
+processed_training_data.parquet
+sample_predictions.parquet

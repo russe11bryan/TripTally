@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data and cache
+cache/
+output/
+logs/
+*.log
+
+# Training data
+train/data/
+ingest/raw/
+ingest/processed/
+
+# Large files
+*.parquet
+*.pt  # Except the one we need
+!models/yolov8n.pt
+
+# Environment
+.env
+.env.local
+
+# Documentation drafts
+*.draft.md
+
+# Test coverage
+.coverage
+htmlcov/
+.pytest_cache/

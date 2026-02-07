@@ -1,0 +1,79 @@
+distance,applicable_time,adult_card_fare,senior_card_fare,student_card_fare,work_card_fare,disability_card_fare
+Up to 3.2 km,Before 7.45am  (Weekdays excluding public holidays),69,19,2,28,19
+3.3 km - 4.2 km,Before 7.45am  (Weekdays excluding public holidays),79,26,7,36,26
+4.3 km - 5.2 km,Before 7.45am  (Weekdays excluding public holidays),90,34,13,45,34
+5.3 km - 6.2 km,Before 7.45am  (Weekdays excluding public holidays),100,41,18,53,41
+6.3 km - 7.2 km,Before 7.45am  (Weekdays excluding public holidays),109,47,21,60,47
+7.3 km - 8.2 km,Before 7.45am  (Weekdays excluding public holidays),116,53,24,66,53
+8.3 km - 9.2 km,Before 7.45am  (Weekdays excluding public holidays),123,53,24,72,53
+9.3 km - 10.2 km,Before 7.45am  (Weekdays excluding public holidays),127,53,24,75,53
+10.3 km - 11.2 km,Before 7.45am  (Weekdays excluding public holidays),131,53,24,78,53
+11.3 km - 12.2 km,Before 7.45am  (Weekdays excluding public holidays),135,53,24,81,53
+12.3 km - 13.2 km,Before 7.45am  (Weekdays excluding public holidays),139,53,24,84,53
+13.3 km - 14.2 km,Before 7.45am  (Weekdays excluding public holidays),143,53,24,87,53
+14.3 km - 15.2 km,Before 7.45am  (Weekdays excluding public holidays),148,53,24,90,53
+15.3 km - 16.2 km,Before 7.45am  (Weekdays excluding public holidays),152,53,24,93,53
+16.3 km - 17.2 km,Before 7.45am  (Weekdays excluding public holidays),156,53,24,96,53
+17.3 km - 18.2 km,Before 7.45am  (Weekdays excluding public holidays),160,53,24,99,53
+18.3 km - 19.2 km,Before 7.45am  (Weekdays excluding public holidays),164,53,24,102,53
+19.3 km - 20.2 km,Before 7.45am  (Weekdays excluding public holidays),167,53,24,105,53
+20.3 km - 21.2 km,Before 7.45am  (Weekdays excluding public holidays),170,53,24,108,53
+21.3 km - 22.2 km,Before 7.45am  (Weekdays excluding public holidays),173,53,24,111,53
+22.3 km - 23.2 km,Before 7.45am  (Weekdays excluding public holidays),176,53,24,114,53
+23.3 km - 24.2 km,Before 7.45am  (Weekdays excluding public holidays),178,53,24,116,53
+24.3 km - 25.2 km,Before 7.45am  (Weekdays excluding public holidays),180,53,24,117,53
+25.3 km - 26.2 km,Before 7.45am  (Weekdays excluding public holidays),182,53,24,118,53
+26.3 km - 27.2 km,Before 7.45am  (Weekdays excluding public holidays),183,53,24,119,53
+27.3 km - 28.2 km,Before 7.45am  (Weekdays excluding public holidays),184,53,24,120,53
+28.3 km - 29.2 km,Before 7.45am  (Weekdays excluding public holidays),185,53,24,121,53
+29.3 km - 30.2 km,Before 7.45am  (Weekdays excluding public holidays),186,53,24,122,53
+30.3 km - 31.2 km,Before 7.45am  (Weekdays excluding public holidays),187,53,24,123,53
+31.3 km - 32.2 km,Before 7.45am  (Weekdays excluding public holidays),188,53,24,124,53
+32.3 km - 33.2 km,Before 7.45am  (Weekdays excluding public holidays),189,53,24,125,53
+33.3 km - 34.2 km,Before 7.45am  (Weekdays excluding public holidays),190,53,24,126,53
+34.3 km - 35.2 km,Before 7.45am  (Weekdays excluding public holidays),191,53,24,127,53
+35.3 km - 36.2 km,Before 7.45am  (Weekdays excluding public holidays),192,53,24,128,53
+36.3 km - 37.2 km,Before 7.45am  (Weekdays excluding public holidays),193,53,24,129,53
+37.3 km - 38.2 km,Before 7.45am  (Weekdays excluding public holidays),194,53,24,130,53
+38.3 km - 39.2 km,Before 7.45am  (Weekdays excluding public holidays),195,53,24,131,53
+39.3 km - 40.2 km,Before 7.45am  (Weekdays excluding public holidays),196,53,24,132,53
+Over 40.2 km,Before 7.45am  (Weekdays excluding public holidays),197,53,24,133,53
+Up to 3.2 km,All other timings,119,69,52,78,69
+3.3 km - 4.2 km,All other timings,129,76,57,86,76
+4.3 km - 5.2 km,All other timings,140,84,63,95,84
+5.3 km - 6.2 km,All other timings,150,91,68,103,91
+6.3 km - 7.2 km,All other timings,159,97,71,110,97
+7.3 km - 8.2 km,All other timings,166,103,74,116,103
+8.3 km - 9.2 km,All other timings,173,103,74,122,103
+9.3 km - 10.2 km,All other timings,177,103,74,125,103
+10.3 km - 11.2 km,All other timings,181,103,74,128,103
+11.3 km - 12.2 km,All other timings,185,103,74,131,103
+12.3 km - 13.2 km,All other timings,189,103,74,134,103
+13.3 km - 14.2 km,All other timings,193,103,74,137,103
+14.3 km - 15.2 km,All other timings,198,103,74,140,103
+15.3 km - 16.2 km,All other timings,202,103,74,143,103
+16.3 km - 17.2 km,All other timings,206,103,74,146,103
+17.3 km - 18.2 km,All other timings,210,103,74,149,103
+18.3 km - 19.2 km,All other timings,214,103,74,152,103
+19.3 km - 20.2 km,All other timings,217,103,74,155,103
+20.3 km - 21.2 km,All other timings,220,103,74,158,103
+21.3 km - 22.2 km,All other timings,223,103,74,161,103
+22.3 km - 23.2 km,All other timings,226,103,74,164,103
+23.3 km - 24.2 km,All other timings,228,103,74,166,103
+24.3 km - 25.2 km,All other timings,230,103,74,167,103
+25.3 km - 26.2 km,All other timings,232,103,74,168,103
+26.3 km - 27.2 km,All other timings,233,103,74,169,103
+27.3 km - 28.2 km,All other timings,234,103,74,170,103
+28.3 km - 29.2 km,All other timings,235,103,74,171,103
+29.3 km - 30.2 km,All other timings,236,103,74,172,103
+30.3 km - 31.2 km,All other timings,237,103,74,173,103
+31.3 km - 32.2 km,All other timings,238,103,74,174,103
+32.3 km - 33.2 km,All other timings,239,103,74,175,103
+33.3 km - 34.2 km,All other timings,240,103,74,176,103
+34.3 km - 35.2 km,All other timings,241,103,74,177,103
+35.3 km - 36.2 km,All other timings,242,103,74,178,103
+36.3 km - 37.2 km,All other timings,243,103,74,179,103
+37.3 km - 38.2 km,All other timings,244,103,74,180,103
+38.3 km - 39.2 km,All other timings,245,103,74,181,103
+39.3 km - 40.2 km,All other timings,246,103,74,182,103
+Over 40.2 km,All other timings,247,103,74,183,103

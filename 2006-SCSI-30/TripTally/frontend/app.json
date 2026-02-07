@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "TripTally",
+    "slug": "triptally",
+    "scheme": "triptally",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "jsEngine": "hermes",
+    "experiments": {
+      "turboModules": false,
+      "bridgeless": false
+    },
+    "devServer": {
+      "port": 8081
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.anonymous.triptally",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "TripTally needs your location to show traffic alerts, find nearby places, and provide route directions.",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "TripTally needs your location to track your routes and provide real-time traffic updates."
+      },
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.766584183679-f996180ulcutjme5kq6gnr67d9f8mv1a"
+        },
+        "googleMapsApiKey": "REDACTED_GOOGLE_MAPS_KEY_1"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anonymous.triptally",
+      "permissions": [
+        "ACCESS_COARSE_LOCATION",
+        "ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "REDACTED_GOOGLE_MAPS_KEY_1"
+        }
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "251c36c2-6edc-4dde-b381-ab7e9246726f"
+      }
+    },
+    "owner": "notrusse11",
+    "runtimeVersion": "1.0.0",
+    "updates": {
+      "url": "https://u.expo.dev/251c36c2-6edc-4dde-b381-ab7e9246726f"
+    }
+  }
+}

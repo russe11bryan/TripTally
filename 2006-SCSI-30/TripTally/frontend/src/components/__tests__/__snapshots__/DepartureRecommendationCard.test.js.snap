@@ -1,0 +1,543 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DepartureRecommendationCard Error State should match snapshot for error state 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#E5E7EB",
+        "borderRadius": 12,
+        "borderWidth": 1,
+        "elevation": 3,
+        "marginHorizontal": 16,
+        "marginVertical": 8,
+        "padding": 16,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 4,
+      },
+      {
+        "alignItems": "center",
+        "backgroundColor": "#FEF2F2",
+        "borderColor": "#FCA5A5",
+        "flexDirection": "row",
+        "gap": 12,
+      },
+    ]
+  }
+>
+  <Ionicons
+    color="#EF4444"
+    name="alert-circle-outline"
+    size={20}
+  />
+  <Text
+    style={
+      {
+        "color": "#EF4444",
+        "flex": 1,
+        "fontSize": 14,
+      }
+    }
+  >
+    Network error
+  </Text>
+</View>
+`;
+
+exports[`DepartureRecommendationCard Go Now State should match snapshot for go now state 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#E5E7EB",
+        "borderRadius": 12,
+        "borderWidth": 1,
+        "elevation": 3,
+        "marginHorizontal": 16,
+        "marginVertical": 8,
+        "padding": 16,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 4,
+      },
+      {
+        "backgroundColor": "#F0FDF4",
+        "borderColor": "#86EFAC",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 12,
+      }
+    }
+  >
+    <Ionicons
+      color="#10B981"
+      name="checkmark-circle"
+      size={24}
+    />
+    <Text
+      style={
+        {
+          "color": "#065F46",
+          "fontSize": 18,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Best Time: Leave Now!
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 6,
+        "marginTop": 4,
+      }
+    }
+  >
+    <Ionicons
+      color="#F59E0B"
+      name="car"
+      size={16}
+    />
+    <Text
+      style={
+        [
+          {
+            "fontSize": 13,
+            "fontWeight": "600",
+          },
+          {
+            "color": "#F59E0B",
+          },
+        ]
+      }
+    >
+      Moderate
+       Traffic
+    </Text>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderTopColor": "#E5E7EB",
+        "borderTopWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "marginTop": 12,
+        "paddingTop": 12,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      Estimated Arrival:
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#111827",
+          "fontSize": 18,
+          "fontWeight": "700",
+        }
+      }
+    >
+      30
+       min
+    </Text>
+  </View>
+  <Text
+    style={
+      {
+        "color": "#6B7280",
+        "fontSize": 12,
+        "marginTop": 8,
+        "textAlign": "center",
+      }
+    }
+  >
+    3
+     cameras analyzed
+  </Text>
+</View>
+`;
+
+exports[`DepartureRecommendationCard Loading State should match snapshot for loading state 1`] = `
+<View
+  style={
+    {
+      "backgroundColor": "#FFFFFF",
+      "borderColor": "#E5E7EB",
+      "borderRadius": 12,
+      "borderWidth": 1,
+      "elevation": 3,
+      "marginHorizontal": 16,
+      "marginVertical": 8,
+      "padding": 16,
+      "shadowColor": "#000",
+      "shadowOffset": {
+        "height": 2,
+        "width": 0,
+      },
+      "shadowOpacity": 0.1,
+      "shadowRadius": 4,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 12,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <ActivityIndicator
+      color="#3B82F6"
+      size="small"
+    />
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 14,
+        }
+      }
+    >
+      Analyzing traffic...
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`DepartureRecommendationCard Low Confidence Warning State should match snapshot for warning state 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#E5E7EB",
+        "borderRadius": 12,
+        "borderWidth": 1,
+        "elevation": 3,
+        "marginHorizontal": 16,
+        "marginVertical": 8,
+        "padding": 16,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 4,
+      },
+      {
+        "alignItems": "center",
+        "backgroundColor": "#FFFBEB",
+        "borderColor": "#FCD34D",
+        "flexDirection": "row",
+        "gap": 12,
+      },
+    ]
+  }
+>
+  <Ionicons
+    color="#F59E0B"
+    name="information-circle-outline"
+    size={20}
+  />
+  <Text
+    style={
+      {
+        "color": "#D97706",
+        "flex": 1,
+        "fontSize": 14,
+      }
+    }
+  >
+    Limited traffic data available for this route
+  </Text>
+</View>
+`;
+
+exports[`DepartureRecommendationCard Wait Recommendation State should match snapshot for wait state 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#FFFFFF",
+        "borderColor": "#E5E7EB",
+        "borderRadius": 12,
+        "borderWidth": 1,
+        "elevation": 3,
+        "marginHorizontal": 16,
+        "marginVertical": 8,
+        "padding": 16,
+        "shadowColor": "#000",
+        "shadowOffset": {
+          "height": 2,
+          "width": 0,
+        },
+        "shadowOpacity": 0.1,
+        "shadowRadius": 4,
+      },
+      false,
+    ]
+  }
+>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "flexDirection": "row",
+        "gap": 12,
+        "marginBottom": 12,
+      }
+    }
+  >
+    <Ionicons
+      color="#6B7280"
+      name="information-circle"
+      size={24}
+    />
+    <Text
+      style={
+        {
+          "color": "#111827",
+          "flex": 1,
+          "fontSize": 16,
+          "fontWeight": "700",
+        }
+      }
+    >
+      Traffic Insight
+    </Text>
+  </View>
+  <Text
+    style={
+      {
+        "color": "#374151",
+        "fontSize": 15,
+        "lineHeight": 22,
+        "marginBottom": 16,
+      }
+    }
+  >
+    Test recommendation
+  </Text>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#F9FAFB",
+        "borderRadius": 8,
+        "flexDirection": "row",
+        "gap": 12,
+        "justifyContent": "space-between",
+        "marginTop": 16,
+        "padding": 12,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 12,
+            "marginBottom": 4,
+            "textAlign": "center",
+          }
+        }
+      >
+        If you leave now
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#111827",
+            "fontSize": 20,
+            "fontWeight": "700",
+            "marginBottom": 4,
+          }
+        }
+      >
+        30
+         min
+      </Text>
+      <View
+        style={
+          {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "gap": 6,
+            "marginTop": 4,
+          }
+        }
+      >
+        <Ionicons
+          color="#F59E0B"
+          name="car"
+          size={16}
+        />
+        <Text
+          style={
+            [
+              {
+                "fontSize": 13,
+                "fontWeight": "600",
+              },
+              {
+                "color": "#F59E0B",
+              },
+            ]
+          }
+        >
+          Moderate
+           Traffic
+        </Text>
+      </View>
+    </View>
+    <Ionicons
+      color="#9CA3AF"
+      name="arrow-forward"
+      size={20}
+    />
+    <View
+      style={
+        {
+          "alignItems": "center",
+          "flex": 1,
+        }
+      }
+    >
+      <Text
+        style={
+          {
+            "color": "#6B7280",
+            "fontSize": 12,
+            "marginBottom": 4,
+            "textAlign": "center",
+          }
+        }
+      >
+        Leave at 
+        3:00 PM
+      </Text>
+      <Text
+        style={
+          [
+            {
+              "color": "#111827",
+              "fontSize": 20,
+              "fontWeight": "700",
+              "marginBottom": 4,
+            },
+            {
+              "color": "#3B82F6",
+            },
+          ]
+        }
+      >
+        30
+         min
+      </Text>
+      <Text
+        style={
+          {
+            "color": "#10B981",
+            "fontSize": 12,
+            "fontWeight": "600",
+            "marginTop": 2,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "borderTopColor": "#E5E7EB",
+        "borderTopWidth": 1,
+        "marginTop": 16,
+        "paddingTop": 12,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "backgroundColor": "#E5E7EB",
+          "borderRadius": 2,
+          "height": 4,
+          "marginBottom": 6,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <View
+        style={
+          [
+            {
+              "backgroundColor": "#3B82F6",
+              "height": "100%",
+            },
+            {
+              "width": "70%",
+            },
+          ]
+        }
+      />
+    </View>
+    <Text
+      style={
+        {
+          "color": "#6B7280",
+          "fontSize": 12,
+          "textAlign": "center",
+        }
+      }
+    >
+      Based on 
+      3
+       traffic cameras
+    </Text>
+  </View>
+</View>
+`;

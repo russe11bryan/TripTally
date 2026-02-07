@@ -1,0 +1,11 @@
+Set on main (and dev if you use it temporarily):
+- Require a pull request before merging
+- Require approvals: 1+
+- Require status checks to pass:
+  - backend: pytest
+  - backend: ruff/black
+  - frontend: typecheck
+  - frontend: eslint
+- Require branches to be up to date before merging (optional)
+- Dismiss stale approvals when new commits are pushed
+- Block force pushes & deletions

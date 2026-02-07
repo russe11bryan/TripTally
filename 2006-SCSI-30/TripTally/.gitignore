@@ -1,0 +1,49 @@
+# OS / editors
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+.idea/
+
+# Node / Expo
+node_modules/
+npm-debug.log*
+yarn.lock
+.expo/
+.expo-shared/
+dist/
+coverage/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+venv/
+.venv/
+.uv/
+.env
+.env.*
+*.sqlite3
+
+# Data / builds / artifacts
+*.log
+*.pid
+*.db
+*.sqlite
+.tox/
+.mypy_cache/
+.pytest_cache/
+
+# Images & caches
+*.orig
+*.rej
+
+# Expo/EAS build outputs
+*.ipa
+*.apk
+*.aab
+
+# Mac/Linux temp
+*.tmp
+*.bak
+*.jpg
