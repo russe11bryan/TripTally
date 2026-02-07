@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+venv/
+*.env
+.env*
+.expo/
+.venv/
+ios/Pods/
+TripTally/backend/venv/
+*.pyc
+__pycache__/
