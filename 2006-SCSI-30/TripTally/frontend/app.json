@@ -28,9 +28,9 @@
       },
       "config": {
         "googleSignIn": {
-          "reservedClientId": "com.googleusercontent.apps.766584183679-f996180ulcutjme5kq6gnr67d9f8mv1a"
+          "reservedClientId": "REPLACE_WITH_GOOGLE_RESERVED_CLIENT_ID"
         },
-        "googleMapsApiKey": "REDACTED_GOOGLE_MAPS_KEY_1"
+        "googleMapsApiKey": "REPLACE_WITH_GOOGLE_MAPS_API_KEY"
       }
     },
     "android": {
@@ -45,7 +45,7 @@
       ],
       "config": {
         "googleMaps": {
-          "apiKey": "REDACTED_GOOGLE_MAPS_KEY_1"
+          "apiKey": "REPLACE_WITH_GOOGLE_MAPS_API_KEY"
         }
       }
     },

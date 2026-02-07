@@ -9,7 +9,8 @@ from datetime import datetime, time, timedelta
 import googlemaps
 import os
 
-gmaps = googlemaps.Client(key='REDACTED_GOOGLE_MAPS_KEY_3')
+# Use environment variable for the Google Maps API key
+gmaps = googlemaps.Client(key=os.environ.get('GOOGLE_MAPS_API_KEY'))
 
 FUEL_PRICE_PER_LITRE = 2.7
 
@@ -120,10 +121,10 @@ def retrieve_all_road_incidents():
 
     conn = http.client.HTTPSConnection("datamall2.mytransport.sg")
 
-    headers = { 'AccountKey': 
-            "REDACTED_LTA_ACCOUNT_KEY==",
-            'accept': 'application/json'
-                }
+    headers = {
+        'AccountKey': os.environ.get('LTA_ACCOUNT_KEY', 'REPLACE_WITH_LTA_ACCOUNT_KEY'),
+        'accept': 'application/json'
+    }
 
     conn.request("GET", "/ltaodataservice/TrafficIncidents", headers=headers)
 

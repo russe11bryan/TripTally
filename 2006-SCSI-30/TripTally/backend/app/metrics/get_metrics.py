@@ -1,9 +1,10 @@
 import googlemaps
+import os
 from datetime import datetime, timedelta
 from .get_driving_metrics import get_all_driving_metrics, calculate_erp_charge, get_list_of_passed_gantries
 from .get_pt_metrics import calculate_fare
 
-gmaps = googlemaps.Client(key='REDACTED_GOOGLE_MAPS_KEY_3')
+gmaps = googlemaps.Client(key=os.environ.get('GOOGLE_MAPS_API_KEY'))
 
 def get_route_metrics(origin_lat, origin_lng, dest_lat, dest_lng, mode):
     try:
